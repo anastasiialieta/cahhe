@@ -1,0 +1,132 @@
+.blog {
+	height: 865px;
+    width: 100%;
+    background: #b07cf7;
+	&__container {
+		
+	}
+	&__text {
+		
+	}
+	&__title {
+		padding-top: 95px;
+		padding-left: 42%;
+		color: #fff;
+		font-size: 90px;
+	}
+	&__desc {
+		padding-left: 31%;
+		color: #fff;
+	}
+
+}
+.container{	
+	padding: 75px 0 0;
+	-webkit-align-items: center;
+	        align-items: center;
+	}
+
+
+	.blog__header{
+		width: 100%;
+		text-align: center;
+		font: 700 90px $font;
+		color: #fff;
+		display: flex;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		margin: 0 auto;
+	}
+
+	.blog__bold{
+		text-align: center;
+	}
+
+	.blog__text{
+		margin: 50px 0 ;
+		font: 200 18px $font;
+		color: #fff;
+	}
+
+	.blog__grid{
+		width: 100%;
+		margin-bottom: 50px;
+		display: flex;
+
+		  justify-content: space-around;
+		
+		.tile{
+			width: 370px;
+			height: 310px;
+			padding: 20px;
+			overflow: hidden;
+			cursor: pointer;
+			margin: 0 15px;
+			display: flex;
+		 flex-direction: column;
+			        justify-content: space-around;
+		
+			
+
+			&__date{
+				margin: 20px;
+				width: 62px;
+				height: 62px;
+				font: 700 30px $font;
+				text-transform: uppercase;
+				text-align: center;
+				color: #fff;
+				-webkit-border-radius: 5px;
+				        border-radius: 5px;
+				margin: 0 15px;
+
+				.date__text{
+					font-size: 21px;
+					font-weight: 700;
+				}
+			}
+
+			&__header{
+				font: 700 20px $font;
+				color: #fff;
+				
+			}
+ 
+			&__info{
+				padding-top: 20px;
+				font: 200 14px $font;
+			}
+			
+			&:nth-child(1){
+				background: url('../images/gradient.jpg') no-repeat center center;
+			}
+			&:nth-child(2){
+				background: url('../images/gradient2.jpg') no-repeat center center;
+			}
+			&:nth-child(3){
+				background: url('../images/green.jpg') no-repeat center center;
+			}
+		}
+	}
+.button__wrap{
+		
+		-webkit-justify-content: center;
+		        justify-content: center;
+		    
+		.blog__button{
+		width: 200px;
+		height: 55px;
+		background: #f72b3b;
+		color: #fff;
+		text-transform: uppercase;
+		font: 20px $font;
+		-webkit-box-shadow: 1px 5px 20px -4px rgba(0,0,0,1);
+			-moz-box-shadow: 1px 5px 20px -4px rgba(0,0,0,1);
+			box-shadow: 1px 5px 20px -4px rgba(0,0,0,1);
+		&:hover{
+			transform: scale(0.9);
+			background-color: #fc0e21;
+		}
+		}
+	}

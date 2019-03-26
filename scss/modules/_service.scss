@@ -1,0 +1,59 @@
+.service {
+padding-top: 100px;
+}
+.list__wrapper {
+ 
+	height: 105px;
+	background: #fff;
+	margin-bottom: 35px;
+	display: flex;
+	justify-content: space-between;
+	
+	padding: 35px 35px 35px 30px;
+}
+
+.list{
+ 
+	display: flex;
+	flex-direction: column;
+
+	}
+.list__title {
+	margin: 0 auto;
+	padding-right: 33px;
+	font: 700 20px $font;
+	text-align: center;
+}
+.list__image {
+ 
+	width: 42px;
+	height: 42px;
+}
+
+.list__image::before {
+content: '';
+display: block;
+color: #ababab;
+width: 4px;
+height: 20px;
+}
+.mogo-container--service {
+    display: flex;	
+	justify-content: space-between;	
+	position: relative;
+}
+
+.wraper__desc {
+	position: absolute;
+	color: #fff;
+	font: 700 90px $font;
+	z-index: 1;
+	top: 36%;
+	width: 600px;
+	
+}
+.tomat__image {
+	
+}
+
+
